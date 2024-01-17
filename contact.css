@@ -1,0 +1,102 @@
+head{
+    display: none;
+}
+
+*{
+    background-color: rgb(240, 240, 226);
+    padding-left: 30px;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 75% 50%;
+    grid-template-rows: 1fr;
+}
+
+.right{
+    margin: 200px 0px 100px 0px ;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-content: center;
+}
+.left{
+    margin-left: 300px;
+    margin: 200px 0px 100px 0px ;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+.h1{
+    font-weight: bold;
+    font-size: 60px;
+
+}
+.h2{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.h3{
+    margin-top: 10px;
+}
+.h4{
+font-weight: bold;
+font-size: 20px;
+margin-top: 30px;
+}
+.h5{
+font-weight: bold;
+}
+.in1{
+    background-color:rgb(185, 185, 163);
+    
+padding-left:20px ;
+height: 50px;
+margin: 10px 0px 10px 0px;
+}
+.in1::placeholder{
+    color:black;
+}
+.in2{
+    padding-left:20px ;
+    background-color:rgb(185, 185, 163);
+height: 50px;
+margin: 10px 0px 10px 0px;
+}
+.in2::placeholder{
+    color:black;
+}
+.in3{
+    padding-left:20px ;
+    background-color:rgb(185, 185, 163);
+height: 50px;
+margin: 10px 0px 10px 0px;
+}
+.in3::placeholder{
+    color:black;
+}
+.in4{
+    padding-left:20px ;
+    padding-top: 20px;
+    background-color:rgb(185, 185, 163);
+height: 100px;
+margin: 10px 0px 10px 0px;
+}
+.in4::placeholder{
+    color:black;
+}
+.in5{
+    background-color:rgb(185, 185, 163);
+    padding-left:20px ;
+    height: 30px;
+    border-radius: 40px;
+    width: 180px;
+    align-self: flex-end;
+    margin: 10px 0px 10px 0px;
+}
+.in5::placeholder{
+    color:black;
+}
